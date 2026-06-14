@@ -1,0 +1,43 @@
+# Assignment reference files — DO NOT push to GitHub
+# These are the original materials provided by Plum for the assessment.
+assignment.md
+plum_multiagent_prompt.md
+sample_doc.md
+sample_documents_guide.md
+policy_terms.json
+test_cases.json
+README.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+ENV/
+env/
+.env
+.env.local
+.env.*.local
+db.sqlite3
+
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# IDEs & System
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.DS_Store
+Thumbs.db
+
+# Video recording aid (personal use — not a deliverable)
+DEMO_VIDEO_SCRIPT.md

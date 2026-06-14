@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: plum-claims-processor
+    env: python
+    buildCommand: "cd frontend && npm install && npm run build && cd ../backend && pip install -r requirements.txt"
+    startCommand: "cd backend && uvicorn main:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.5
+      - key: PLUM_EVAL_MODE
+        value: "true"
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false
+      - key: POLICY_FILE_PATH
+        value: "./policy_terms.json"
+      - key: TEST_CASES_PATH
+        value: "./test_cases.json"
+      - key: LOG_LEVEL
+        value: "INFO"
