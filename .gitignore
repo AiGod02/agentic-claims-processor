@@ -1,12 +1,12 @@
 # Assignment reference files — DO NOT push to GitHub
 # These are the original materials provided by Plum for the assessment.
-assignment.md
-plum_multiagent_prompt.md
-sample_doc.md
-sample_documents_guide.md
-policy_terms.json
-test_cases.json
-README.md
+/assignment.md
+/plum_multiagent_prompt.md
+/sample_doc.md
+/sample_documents_guide.md
+/policy_terms.json
+/test_cases.json
+/README.md
 
 # Python
 __pycache__/
